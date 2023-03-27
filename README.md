@@ -1,4 +1,6 @@
 # YoutubeappVideoDownload
+Note: Remember to use downloaded videos responsibly and respect YouTube's terms of service.
+
 Tutorial, creat a Youtube Download  app with Python
 
 we will create a simple YouTube video downloader using Python and the pytube library. Pytube is a lightweight library that allows you to download YouTube videos quickly and easily.
@@ -63,3 +65,4 @@ stream = yt.streams.first()
 # Download the video
 stream.download()
 
+And that's it! You've just created a simple YouTube video downloader using Python and the pytube library.
